@@ -31,7 +31,7 @@ class Particle {
   reset() {
     this.t = Math.random() * Math.PI * 2;
     const point = getHeartPoint(this.t);
-    const scale = 12 + Math.random() * 3; // El contorno externo vive entre la escala 12 y 15
+    const scale = 10 + Math.random() * 3; // El contorno externo vive entre la escala 12 y 15
 
     this.x = canvas.width / 2 + point.x * scale;
     this.y = canvas.height / 2 + point.y * scale;
